@@ -3,15 +3,13 @@
 // @namespace    Krunker
 // @version      0.1
 // @description  See Name Tags
-// @author       Pingurus
+// @author       U$ER 🆘
 // @match        *://krunker.io/*
 // @icon         https://imgs.search.brave.com/gxbuwhW4MDf4kMmg5OEdn39Rr6wEB73igFjHpZlBbl0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdHls/ZXMucmVkZGl0bWVk/aWEuY29tL3Q1X2hq/dzg5L3N0eWxlcy9j/b21tdW5pdHlJY29u/X2toZnFzbm0xcG0x/YjEucG5n
 // @grant        none
 // @run-at       document-start
 // @noframes
 // ==/UserScript==
-
-/* HUGE THANKS TO jaguar.ahks */
 
 const id = "_" + Math.random().toString(36).slice(2);
 function WallHack() { delete window[id]; const e = new (class { constructor() { this.isProxy = Symbol("isProxy"); } })(); }
